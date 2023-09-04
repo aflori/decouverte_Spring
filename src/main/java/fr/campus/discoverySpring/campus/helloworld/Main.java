@@ -9,27 +9,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Main implements CommandLineRunner {
+public class Main  {
 
-    @Autowired
-    private BusinessService bs;
 
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
-    }
-
-    @Override
-    public void run(String... args){
-        HelloWorld hw = bs.getHelloWorld();
-        System.out.println(hw);
-    }
-
-    public BusinessService getBs() {
-        return bs;
-    }
-
-    public void setBs(BusinessService bs) {
-        this.bs = bs;
     }
 
 }
