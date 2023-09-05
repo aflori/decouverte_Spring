@@ -16,11 +16,16 @@ public class EmployeeService {
     @Autowired
     private Employee employee;
 
-    public Iterable<Employee> getEmployees() {
+    public Iterable<Employee> getEmployees(int i) {
         int elementNumber = employee.getNumberEmployee();
         ArrayList<Employee> it = new ArrayList<>(elementNumber);
-
-        for(int i=0;i<elementNumber;i++) {
+        if(i<0 || i>=elementNumber) {
+            for(int j=0;j<elementNumber;j++) {
+                employee.setElementFromData(j);
+                it.add(employee);
+            }
+        }
+        else {
             employee.setElementFromData(i);
             it.add(employee);
         }
