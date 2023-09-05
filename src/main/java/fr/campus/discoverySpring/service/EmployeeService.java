@@ -1,6 +1,6 @@
-package fr.campus.discoverySpring.campus.helloworld.service;
+package fr.campus.discoverySpring.service;
 
-import fr.campus.discoverySpring.campus.helloworld.repository.Employee;
+import fr.campus.discoverySpring.repository.Employee;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

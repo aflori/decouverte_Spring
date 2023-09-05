@@ -1,4 +1,4 @@
-package fr.campus.discoverySpring.campus.helloworld.model;
+package fr.campus.discoverySpring.model;
 
 import lombok.Getter;
 import org.springframework.stereotype.Component;

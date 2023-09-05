@@ -1,7 +1,7 @@
-package fr.campus.discoverySpring.campus.helloworld.repository;
+package fr.campus.discoverySpring.repository;
 
 
-import fr.campus.discoverySpring.campus.helloworld.model.DataBase;
+import fr.campus.discoverySpring.model.DataBase;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

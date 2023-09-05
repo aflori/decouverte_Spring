@@ -1,7 +1,7 @@
-package fr.campus.discoverySpring.campus.helloworld.controller;
+package fr.campus.discoverySpring.controller;
 
-import fr.campus.discoverySpring.campus.helloworld.repository.Employee;
-import fr.campus.discoverySpring.campus.helloworld.service.EmployeeService;
+import fr.campus.discoverySpring.repository.Employee;
+import fr.campus.discoverySpring.service.EmployeeService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
