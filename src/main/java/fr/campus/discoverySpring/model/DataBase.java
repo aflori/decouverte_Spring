@@ -1,12 +1,11 @@
 package fr.campus.discoverySpring.model;
 
-import lombok.Getter;
 import org.springframework.stereotype.Component;
 
 
 @Component
 public class DataBase {
-    @Getter
+
     private final String[] namesField;
     private final String[][] nameValues;
 

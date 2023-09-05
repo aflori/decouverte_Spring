@@ -1,6 +1,7 @@
 package fr.campus.discoverySpring.repository;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import fr.campus.discoverySpring.model.DataBase;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Component;
 public class Employee {
 
     @Autowired
+    @JsonIgnore
     private DataBase datas;
 
     private String firstName;
